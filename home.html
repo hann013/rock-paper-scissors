@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <style type="text/css">
+            body {
+                text-align: center;
+            }
+
+            button{
+                background: none;
+                border: 0;
+                padding: 0px;
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Rock Paper Scissors</h1>
+        <p>Let's play! Choose one below:</p>
+        <form action="/play">
+            <button type="submit" name="choice" value="rock"><img src="/static/rock.png" alt="Choose rock"></button>
+            <button type="submit" name="choice" value="paper"><img src="/static/paper.png" alt="Choose paper"></button>
+            <button type="submit" name="choice" value="scissors"><img src="/static/scissors.png" alt="Choose scissors"></button>
+        </form>
+    </body>
+</html>
